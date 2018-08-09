@@ -42,11 +42,11 @@ End Sub
 
 ## Properties
 
-### **`Long`** `ErrorLevel` as integer
+### **`Long`** `ErrorLevel` *(Read Only)*
 
 If initialisation fails, a non-zero `ErrorLevel` is raised. This helps you prevent custom error handling.
 
-### **`String`** `ErrorText`
+### **`String`** `ErrorText` *(Read Only)*
 
 If initialisation fails, `ErrorText` will contain information about what went wrong.
 
