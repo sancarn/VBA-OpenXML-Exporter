@@ -42,11 +42,11 @@ End Sub
 
 ## Properties
 
-### **`Long`** `ErrorLevel` *(Read Only)*
+### `ErrorLevel` as **`Long`** *(Read Only)*
 
 If initialisation fails, a non-zero `ErrorLevel` is raised. This helps you prevent custom error handling.
 
-### **`String`** `ErrorText` *(Read Only)*
+### `ErrorText` as **`String`** *(Read Only)*
 
 If initialisation fails, `ErrorText` will contain information about what went wrong.
 
@@ -54,20 +54,20 @@ If initialisation fails, `ErrorText` will contain information about what went wr
 
 If a filter path is provided to `Init` then this property will contain the filtered path.
 
-### **`Workbook`** `wbTarget` *(Read Only)*
+### `wbTarget` as **`Workbook`** *(Read Only)*
 
 `wbTarget` will contain the workbook who's data has been exported.
 
-### **`String`** `sDataDir` *(Read Only)*
+### `sDataDir` as **`String`** *(Read Only)*
 
 The data directory created by the cRawXLData. Currently it only uses this directory for parsing, however in the future this may also be used to create modify workbook XML data.
 
-### **`Scripting.Dictionary` of `<String`,`Mixed>`** `Data`
+### `Data` as  *`Scripting.Dictionary` of `<String`,`Mixed>`*
 
 This dictionary contains all exported Excel data, including binary files (`String`s) as well as pre-parsed XML files (`Microsoft.XMLDOM` objects).
 
 ## Methods
 
-### `Init(wb As Workbook, Optional ByVal sFilterPath As String = "") As cRawXLData`
+### Function `Init(wb As Workbook, Optional ByVal sFilterPath As String = "") As cRawXLData`
 
 Initialises the class based on the workbook and filter paths you have given it. The return value is a `cRawXLData` object, as this can also be called like a static method.
