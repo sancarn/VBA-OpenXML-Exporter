@@ -13,9 +13,9 @@ Attribute VB_Exposed = False
 ' Author: James Warren
 ' Website: www.github.co.uk/sancarn
 ' License: This project is published under the MIT license.
-' Host: https://github.com/sancarn/cRawXLData
+' Host: https://github.com/sancarn/VBA-OpenXML-Exporter
 ' Please report issues to:
-'  https://github.com/sancarn/cRawXLData/issues
+'  https://github.com/sancarn/VBA-OpenXML-Exporter/issues
 
 '   Sub USAGE_EXAMPLE()
 '       Dim raw_data As New RawXLData
