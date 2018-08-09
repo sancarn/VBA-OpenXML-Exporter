@@ -62,7 +62,7 @@ If a filter path is provided to `Init` then this property will contain the filte
 
 The data directory created by the cRawXLData. Currently it only uses this directory for parsing, however in the future this may also be used to create modify workbook XML data.
 
-### **`Scripting.Dictionary` of <`String`,`Mixed`>** `Data`
+### **`Scripting.Dictionary` of `<String`,`Mixed>`** `Data`
 
 This dictionary contains all exported Excel data, including binary files (`String`s) as well as pre-parsed XML files (`Microsoft.XMLDOM` objects).
 
